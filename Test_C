@@ -1,0 +1,13 @@
+#include"stdio.h"
+
+void mian(){
+  int sum = 0;
+  
+  for(int i = 0; i < 10; i++){
+    print("The i is %d.\n", i);
+    sum += i;
+    print("The sum of i is %d.\n", sum);
+  }
+  getchar();
+
+}
